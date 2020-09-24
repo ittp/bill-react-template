@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
+#sidebar {
+  background: #212121;
+  color: wheat;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  .title {
+    padding: 5px 0;
+  }
+  .address {
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: stretch;
+    width: 300px;
+  }
+  .status {
+    span {
+      padding: 5px 10px;
+      color: white;
+      text-align: center;
+    }
+  }
+  .nav {
+
+    a {
+      display: flex;
+      flex-direction: column;
+      // padding: 15px 25px;
+      padding: 5px 0;
+      color: #eee;
+      text-decoration: none;
+      font-size: 0.9rem;
+      text-transform: uppercase
+      
+    }
+  }
+}
+
+#content {
+  padding: 25px;
+  max-width: 900px;
+  .title {
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+}
+
+.Container {
+  display: flex;
+  flex-wrap: nowrap;
+  
+  .row {
+
+    height: 100vh;
+    box-sizing: border-box;
+
+  }
+
+}

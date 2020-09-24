@@ -1,0 +1,16 @@
+.App {
+  font-family: "Rubkik", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.Sidebar {
+  display: flex;
+  width: 20vw;
+  height: 100vh;
+}
+.Content {
+  display: block;
+}

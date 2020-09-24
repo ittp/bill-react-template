@@ -1,0 +1,50 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "bill/index.tsx",
+  "dependencies": {
+    "@buffetjs/core": "3.2.3",
+    "@buffetjs/custom": "3.2.3",
+    "@buffetjs/hooks": "3.2.3",
+    "@buffetjs/icons": "3.2.3",
+    "@buffetjs/styles": "3.3.0",
+    "@storybook/react": "6.0.21",
+    "@types/node": "14.11.2",
+    "@types/node-sass": "4.11.1",
+    "@types/react-router-dom": "5.1.5",
+    "loadsh": "latest",
+    "lodash": "4.17.20",
+    "prop-types": "latest",
+    "react": "^16.12.0",
+    "react-data-table-component": "6.11.5",
+    "react-data-table-component-extensions": "1.4.1",
+    "react-dom": "^16.12.0",
+    "react-is": "latest",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.3.0",
+    "styled-components": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

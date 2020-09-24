@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/",
+    "component": 0,
+    "exact": 0
+  },
+  {
+    "path": "/item",
+    "component": 2,
+    "exact": 0
+  }
+]
